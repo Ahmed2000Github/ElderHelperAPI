@@ -11,4 +11,4 @@ dotenv.config({
 });
 const PORT = 1235;
 const server = http.createServer(app);
-server.listen(PORT);
+server.listen(process.env.PORT || 5000);
