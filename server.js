@@ -9,6 +9,6 @@ try {
 dotenv.config({
   path: "./config/config.env",
 });
-const PORT = 5000;
+const PORT = 1235;
 const server = http.createServer(app);
 server.listen(PORT);
