@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start2": "node server.js",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Abdelhadi",
   "license": "ISC",
